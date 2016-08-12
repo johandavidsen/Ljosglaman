@@ -1,0 +1,33 @@
+#content {
+}
+
+.post-inner {
+  background-color: green;
+  width: 800px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  border-bottom: solid 15px red;
+}
+
+.entry-author {
+  display: inline-flex;
+}
+
+img {
+  border-radius: 25px;
+}
+
+.entry-meta,
+.entry-summary,
+.entry-content,
+.entry-header {
+}
+
+body {
+  margin: 0px;
+}
