@@ -16,7 +16,9 @@
 				<?php echo get_avatar( get_the_author_meta( 'ID' ), 32 ) ?>
 			</div>
 			<div class="entry-author-info">
-				<?php get_the_author(); ?>
+				<?php the_author(); ?>  in
+				<?php echo get_the_category_list( _x( ', ', 'Used between list items, there is a space after the comma.', 'twentyfourteen' ) ); ?><br />
+				<?php echo human_time_diff(get_the_time('U'), current_time('timestamp')) . ' ago'; ?>
 			</div>
 		</div>
 		<header class="entry-header">
@@ -82,4 +84,5 @@
 			// edit_post_link( __( 'Edit', 'twentyfourteen' ), '<span class="edit-link">', '</span>' );
 		?>
 	</div>
+	<div class="post-buttom" />
 </article><!-- #post-## -->

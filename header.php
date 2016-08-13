@@ -23,8 +23,6 @@
 
 <body <?php body_class(); ?>>
   <div>
-  	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'ljosglaman' ); ?></a>
-
   	<div>
   		<header class="site-header" role="banner">
   			<div class="site-branding">
