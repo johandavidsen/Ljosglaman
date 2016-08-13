@@ -22,8 +22,7 @@
 				 */
 				//do_action( 'twentyfifteen_credits' );
 			?>
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'Morgun_Rodin' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'Morgun_RodinLokagardur1984
-      ' ), 'WordPress' ); ?></a>
+			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'Morgun_Rodin' ) ); ?>"><?php //printf( __( 'Proudly powered by %s', 'Morgun_Rodin' ), 'WordPress' ); ?></a>
 		</div><!-- .site-info -->
 	</footer><!-- .site-footer -->
 
